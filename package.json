@@ -11,13 +11,14 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "standalone-chromatic": "npx chromatic --project-token=chpt_6cde9187ef382c4",
-    "e2e-chromatic": ""
+    "e2e-chromatic": "yarn chromatic --playwright --project-token=chpt_05ebfb0f083a75f"
   },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@chromatic-com/playwright": "^0.12.3",
     "@chromatic-com/storybook": "^3",
     "@eslint/js": "^9.25.0",
     "@playwright/test": "^1.52.0",
