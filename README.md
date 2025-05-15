@@ -1,4 +1,4 @@
-To reproduce the success:
+To reproduce the issue:
 
 1. Run `yarn` (I'm using yarn 4.9.1)
 1. Observe that Storybook (standalone) is still on `8.6.12`, whereas Storybook (via `@chromatic-com/playwright`)'s storybook is on `9.0.0-rc.0`
